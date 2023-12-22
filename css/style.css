@@ -1,0 +1,43 @@
+*, *::before, ::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(74, 67, 67)
+}
+
+.ramka{
+    width: 650px;
+    max-width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn{
+    background-color: hsl(185, 89%, 26%);
+    border: 1px solid hsl(182, 94%, 25%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    outline: none;
+}
+
+.btn:hover{
+    border-color: crimson;
+}
